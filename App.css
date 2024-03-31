@@ -94,3 +94,34 @@ h1 {
 .course-item__footer .caption .badge {
   font-weight: bold;
 }
+@media(max-width:600px) {
+ 
+.course-item{
+  display:flex;
+  justify-content:center;
+ flex-direction:column;
+ background:white
+}
+
+  .course-item__footer{
+    display:flex;
+    flex-direction:column;
+    
+  }
+  .course-status {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-direction:row;
+    gap:0.6rem;
+    background-color: #fff;
+    
+  }
+  .h1{
+    display:flex;
+    justify-content:center;
+    text-algin:center;
+  }
+ 
+}
+
